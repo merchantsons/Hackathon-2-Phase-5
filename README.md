@@ -1,7 +1,7 @@
 # **Todo With Chatbot**
 
 # **Hackathon** : Hackathon II  
-# **Phase** : Phase V — Advanced Cloud Deployment & Event-Driven AI Todo  
+  **Phase** : Phase V — Advanced Cloud Deployment & Event-Driven AI Todo  
 # **BY** : GIAIC - MERCHANTSONS - 00037391  
 
 ---
