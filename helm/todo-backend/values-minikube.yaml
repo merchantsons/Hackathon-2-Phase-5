@@ -1,0 +1,13 @@
+# Minikube / local overrides (Phase V)
+# Use: helm install todo-backend ./todo-backend -f values-minikube.yaml
+
+replicaCount: 1
+
+dapr:
+  enabled: false
+
+autoscaling:
+  enabled: false
+
+image:
+  pullPolicy: IfNotPresent

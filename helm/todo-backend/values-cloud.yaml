@@ -1,0 +1,17 @@
+# Managed Kubernetes / cloud overrides (Phase V)
+# Use: helm install todo-backend ./todo-backend -f values-cloud.yaml
+
+replicaCount: 2
+
+dapr:
+  enabled: true
+  appId: todo-backend
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70
+
+image:
+  pullPolicy: Always

@@ -1,0 +1,156 @@
+# =============================
+# Environment & secrets
+# =============================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+secrets/
+.secrets
+
+# =============================
+# Dependencies
+# =============================
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.eggs/
+*.egg
+*.egg-info/
+*.egg-info
+.installed.cfg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =============================
+# Build & output
+# =============================
+# Generic
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Frontend / Vite
+frontend/dist/
+*.local
+
+# Python
+*.whl
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# =============================
+# IDEs & editors
+# =============================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# =============================
+# OS files
+# =============================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================
+# Logs & temp
+# =============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# =============================
+# Testing & quality
+# =============================
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+playwright-report/
+test-results/
+.playwright/
+
+# =============================
+# Docker (optional local overrides)
+# =============================
+docker-compose.override.yml
+docker-compose.*.local.yml
+.docker/
+
+# =============================
+# Project
+# =============================
+docs/
+
+# =============================
+# Misc
+# =============================
+*.pid
+*.seed
+*.pid.lock
+.npm
+.eslintcache
+.stylelintcache
+*.tgz
+.vercel
+.terraform/
+*.tfstate
+*.tfstate.*
